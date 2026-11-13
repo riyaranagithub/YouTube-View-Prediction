@@ -13,7 +13,7 @@ library(jsonlite)
 library(dplyr)
 
 # 1. Enter your API key
-api_key <- "AIzaSyCZsH9MleB69FR2MDMu3yzBvuiTmOnBBUY"
+api_key <- Sys.getenv("YOUTUBE_API_KEY")
 
 # 2. Categories to search
 categories <- c(
